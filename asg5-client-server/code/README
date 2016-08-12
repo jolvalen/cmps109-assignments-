@@ -1,0 +1,34 @@
+#-----------------------------------------------------------------------
+# Jose L. Valencia
+# 
+# CMPS 109
+# 
+# Assignment 5 
+#-----------------------------------------------------------------------
+
+Files being Submitted:
+
+cix.cpp
+cixd.cpp
+logstream.h
+Makefile
+README
+protocol.cpp
+protocol.h
+sockets.cpp
+sockets.h
+
+
+#-----------------------------------------------------------------------
+
+Files get sent with put, ls shows the files and directories, get gets 
+the files indicated, and rm removes the files specified. 
+
+#-----------------------------------------------------------------------
+submit cmps109-wm.u16 asg5 cix.cpp cixd.cpp logstream.h Makefile README 
+protocol.cpp protocol.h sockets.cpp sockets.h
+
+#-----------------------------------------------------------------------
+
+this is how to check for turned-in work:
+ls /afs/cats.ucsc.edu/class/cmps109-wm.u16/asg5/jolvalen

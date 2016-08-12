@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2015.07.16.23.47.32;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.16.23.38.39;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@#!/bin/sh
+# $Id$
+for gd in ../.score/*.gd
+do
+   ln -s $gd
+done
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 1
+@

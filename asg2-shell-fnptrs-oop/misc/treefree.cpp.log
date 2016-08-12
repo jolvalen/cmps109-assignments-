@@ -1,0 +1,7 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting treefree.cpp
+treefree.cpp:
+     $Id: treefree.cpp,v 1.72 2015-06-29 13:45:29-07 - - $
+g++ -g -O0 -Wall -Wextra -rdynamic -std=gnu++14 treefree.cpp
+	-o treefree -lglut -lGLU -lGL -lX11 -lrt -lm
+rm -f treefree.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished treefree.cpp

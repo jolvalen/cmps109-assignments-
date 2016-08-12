@@ -1,0 +1,45 @@
+#------------------------------------------------------------------------------
+# Jose L. Valencia
+# 
+# CMPS 109
+# 
+# Assignment 2 
+#------------------------------------------------------------------------------
+
+Files being Submitted:
+
+commands.cpp
+commands.h
+debug.cpp
+debug.h
+file_sys.cpp
+file_sys.h
+main.cpp
+Makefile
+util.cpp
+util.h
+README
+
+#------------------------------------------------------------------------------
+
+REPORT:
+
+pwd - done
+ls - done
+make - not done
+cat - not done
+echo - done
+prompt - done
+rm - not done
+mkdir - done
+usr - not done
+^D - done
+
+#------------------------------------------------------------------------------
+submit cmps109-wm.u16 asg2 commands.cpp commands.h debug.cpp debug.h file_sys.cpp file_sys.h main.cpp Makefile util.cpp util.h README
+
+
+
+#------------------------------------------------------------------------------
+this is how to test for memory leaks:
+valgrind --leak-check=full --show-reachable=yes yshell < test1.ysh

@@ -1,0 +1,7 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting inherit.cpp
+inherit.cpp:
+     $Id: inherit.cpp,v 1.6 2016-04-08 19:51:13-07 - - $
+g++ -g -O0 -Wall -Wextra -rdynamic -std=gnu++14 inherit.cpp
+	-o inherit -lglut -lGLU -lGL -lX11 -lrt -lm
+rm -f inherit.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished inherit.cpp

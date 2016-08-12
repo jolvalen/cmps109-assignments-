@@ -1,0 +1,36 @@
+#------------------------------------------------------------------------------
+# Jose L. Valencia
+# 
+# CMPS 109
+# 
+# Assignment 1 
+#------------------------------------------------------------------------------
+
+Files being Submitted:
+
+bigint.cpp
+bigint.h 
+debug.cpp
+debug.h
+iterstack.h
+libfns.cpp 
+libfns.h
+main.cpp
+relops.h
+scanner.cpp
+scanner.h
+ubigint.cpp
+ubigint.h
+util.cpp
+util.h
+Makefile
+README
+
+REPORT:
+
+I was unable to finish implementing the opperator/, as a result also opperator%. This is my first c++ program and it was difficult to get used to this language.
+
+#####
+submit cmps109-wm.u16 asg1 bigint.cpp bigint.h debug.cpp debug.h iterstack.h libfns.cpp libfns.h main.cpp relops.h scanner.cpp scanner.h ubigint.cpp ubigint.h util.cpp util.h Makefile README
+
+

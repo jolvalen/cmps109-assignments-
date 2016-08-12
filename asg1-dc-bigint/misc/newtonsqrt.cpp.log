@@ -1,0 +1,7 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting newtonsqrt.cpp
+newtonsqrt.cpp:
+     $Id: newtonsqrt.cpp,v 1.21 2016-06-13 13:44:53-07 - - $
+g++ -g -O0 -Wall -Wextra -rdynamic -std=gnu++14 newtonsqrt.cpp
+	-o newtonsqrt -lglut -lGLU -lGL -lX11 -lrt -lm
+rm -f newtonsqrt.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished newtonsqrt.cpp

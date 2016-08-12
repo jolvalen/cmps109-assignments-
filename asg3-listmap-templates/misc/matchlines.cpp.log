@@ -1,0 +1,7 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting matchlines.cpp
+matchlines.cpp:
+     $Id: matchlines.cpp,v 1.1 2016-06-28 14:46:02-07 - - $
+g++ -g -O0 -Wall -Wextra -rdynamic -std=gnu++14 matchlines.cpp
+	-o matchlines -lglut -lGLU -lGL -lX11 -lrt -lm
+rm -f matchlines.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished matchlines.cpp

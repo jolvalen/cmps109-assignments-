@@ -1,0 +1,41 @@
+#-----------------------------------------------------------------------
+# Jose L. Valencia
+# 
+# CMPS 109
+# 
+# Assignment 3 
+#-----------------------------------------------------------------------
+
+Files being Submitted:
+
+listmap.h
+listmap.tcc
+main.cpp
+Makefile
+README
+trace.cpp
+trace.h
+util.cpp
+util.h
+util.tcc
+xpair.h
+xless.h
+
+#-----------------------------------------------------------------------
+
+I took a lot of time to implement all of the functions in this 
+assignment and tested them many times with the given input files, also 
+there were no leaks or errors
+
+#-----------------------------------------------------------------------
+submit cmps109-wm.u16 asg3 listmap.h listmap.tcc main.cpp Makefile 
+README trace.cpp trace.h util.cpp util.h util.tcc xpair.h xless.h
+
+
+
+#-----------------------------------------------------------------------
+this is how to test for memory leaks:
+valgrind --leak-check=full --show-reachable=yes keyvalue test1.in
+
+this is how to check for turned-in work:
+ls /afs/cats.ucsc.edu/class/cmps109-wm.u16/asg3/jolvalen
